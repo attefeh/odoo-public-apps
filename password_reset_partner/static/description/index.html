@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Partner Reset Password</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; color: #333; padding: 20px; }
+        h1 { color: #007bff; }
+        ul { margin-top: 10px; }
+        img { max-width: 100%; margin-top: 20px; border-radius: 8px; }
+    </style>
+</head>
+<body>
+
+    <h1>🔐 Reset User's Password</h1>
+    <p>This module allows administrators to securely reset passwords for user accounts, including Portal users and Internal Users from their partner's form.</p>
+
+    <h2>✨ Key Features</h2>
+    <ul>
+        <li>Reset passwords directly from the partner form</li>
+        <li>Audit log of password reset actions</li>
+        <li>Compatible with both community version and enterprise version</li>
+        <li>Compatible with multicompany database </li>
+    </ul>
+
+    <h2>📸 Screenshots</h2>
+    <p>Below is a preview of the password reset button and wizard in the user form:</p>
+    <img src="screenshot.png" alt="Password Reset Button and Wizard Screenshot">
+
+    <h2>⚙️ Technical Notes</h2>
+    <p>This module adds a button to the <code>res.partner</code> form view. When clicked, it opens a wizard to ask for new password. By confirming it will update related user to that partner's password.</p>
+
+    <h2>📦 Installation</h2>
+    <ul>
+        <li>Copy the module to your Odoo addons directory</li>
+        <li>Update the app list</li>
+        <li>Install the module from the Apps menu</li>
+    </ul>
+
+    <h2>🧑‍💻 Maintainer</h2>
+    <p>Developed by <strong>Attefeh Falah</strong> — for support or customization, contact <a href="mailto:you@example.com">attefehfalah@gmail.com</a>.</p>
+
+</body>
+</html>

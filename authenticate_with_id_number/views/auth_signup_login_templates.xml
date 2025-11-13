@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="authenticate_with_id_number.fields" inherit_id="auth_signup.fields" name="Password policy data for auth_signup">
+        <xpath expr="//label[@for='login']" position="replace">
+            <label for="login">Your ID Number</label>
+        </xpath>
+        <xpath expr="//div[hasclass('field-login')]" position="after">
+            <div class="mb-3 field-email">
+                <label for="login">Your Email</label>
+                <input type="text" name="custom_email" t-att-value="login" id="custom_email" class="form-control form-control-sm" autofocus="autofocus"
+                    autocapitalize="off"/>
+            </div>
+        </xpath>
+    </template>
+
+    <template id="authenticate_with_id_number.reset_password" inherit_id="auth_signup.reset_password" name="Reset password">
+       <xpath expr="//label[@for='login']" position="replace">
+            <label for="login">Your ID Number</label>
+       </xpath>
+    </template>
+</odoo>
