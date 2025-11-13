@@ -19,7 +19,7 @@
         'static/description/screenshot1.png',
         'static/description/conver.png',
     ],
-    'price': 5,
+    'price': 0,
     'currency': 'USD',
     'installable': True,
     'application': False,
