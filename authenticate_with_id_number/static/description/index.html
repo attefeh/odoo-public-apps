@@ -4,45 +4,164 @@
     <meta charset="utf-8">
     <title>ID Number Authentication</title>
     <style>
-        body { font-family: 'Segoe UI', sans-serif; color: #333; padding: 20px; }
-        h1 { color: #007bff; }
-        ul { margin-top: 10px; }
-        img { max-width: 100%; margin-top: 20px; border-radius: 8px; }
+        body {
+            font-family: 'Segoe UI', 'Arial', sans-serif;
+            color: #333;
+            background: #fafbfe;
+            padding: 20px;
+            margin: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 18px;
+            box-shadow: 0 4px 20px 0 rgba(0,0,0,.08);
+            padding: 32px 40px;
+        }
+        h1, h2 {
+            color: #1946d8;
+            margin-bottom: 12px;
+            letter-spacing: 1px;
+        }
+        h1 {
+            font-size: 2.4em;
+            text-align: center;
+            font-weight: 700;
+        }
+        h2 {
+            font-size: 1.36em;
+            margin-top: 2em;
+            border-bottom: 2px solid #eaf0fa;
+            padding-bottom: 4px;
+        }
+        ul {
+            margin-top: 8px;
+            margin-bottom: 24px;
+            padding-left: 22px;
+        }
+        li {
+            margin: 7px 0;
+        }
+        .screenshots-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 26px;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+        .img-card {
+            background: #eaf0fa;
+            border: 2px solid #1946d8;
+            border-radius: 18px;
+            padding: 20px 14px 14px 14px;
+            margin-top: 10px;
+            box-shadow: 0 2px 12px rgba(25,70,216,0.07);
+            max-width: 340px;
+            flex: 1 0 280px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .img-card img {
+            max-width: 100%;
+            height: auto;
+            max-height: 410px;
+            border-radius: 12px;
+            border: 2px solid #fff;
+            box-shadow: 0 2px 8px rgba(194,214,255,0.17);
+        }
+        .img-caption {
+            margin-top: 12px;
+            color: #1946d8;
+            font-size: 1em;
+            text-align: center;
+        }
+        p {
+            margin-bottom: 15px;
+            margin-top: 8px;
+        }
+        code {
+            background: #eaf0fa;
+            padding: 2px 4px;
+            border-radius: 4px;
+            font-size: 1em;
+        }
+        a {
+            color: #1946d8;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        @media print {
+            body, .container {
+                background: #fff !important;
+                box-shadow: none !important;
+            }
+            .container {
+                max-width: 780px !important;
+                padding: 26px !important;
+            }
+            .img-card {
+                max-width: 270px !important;
+                padding: 10px 8px !important;
+            }
+        }
     </style>
 </head>
 <body>
+    <div class="container">
+        <h1>ID Number Authentication</h1>
+        <p>
+            This module allows users to signup, login and reset their password with their unique ID number.
+        </p>
 
-    <h1>ID Number Authentication</h1>
-    <p>This module allows users to signup, login and reset their password with their unique ID number.</p>
+        <h2>✨ Key Features</h2>
+        <ul>
+            <li>Signup, login and reset password with ID number</li>
+            <li>ID number is saved on related partner</li>
+            <li>ID number is unique per user</li>
+            <li>By changing ID number on partner's form or user's form, the other one will be changed automatically</li>
+            <li>Compatible with both community version and enterprise version</li>
+            <li>Compatible with multicompany database</li>
+        </ul>
 
-    <h2>✨ Key Features</h2>
-    <ul>
-        <li>Signup, login and reset password with ID number</li>
-        <li>ID number is saved on related partner</li>
-        <li>ID number is uniq per user</li>
-        <li>By changing ID number on partner's form or user's form, the other one will be changed automatically</li>
-        <li>Compatible with both community version and enterprise version</li>
-        <li>Compatible with multicompany database </li>
-    </ul>
+        <h2>📸 Screenshots</h2>
+        <p>Below is a preview of the changed views:</p>
+        <div class="screenshots-section">
+            <div class="img-card">
+                <img src="screenshot1.png" alt="ID number as login field on login page">
+                <div class="img-caption">ID number as login field on login page</div>
+            </div>
+            <div class="img-card">
+                <img src="screenshot2.png" alt="ID number field on user form">
+                <div class="img-caption">ID number field on user form</div>
+            </div>
+            <div class="img-card">
+                <img src="screenshot3.png" alt="ID number field on partner form">
+                <div class="img-caption">ID number field on partner form</div>
+            </div>
+        </div>
 
-    <h2>📸 Screenshots</h2>
-    <p>Below is a preview of the changed views:</p>
-    <img src="screenshot1.png" alt="ID number as login field on login page">
-    <img src="screenshot2.png" alt="ID number field on user form">
-    <img src="screenshot3.png" alt="ID number field on partner form">
+        <h2>⚙️ Technical Notes</h2>
+        <p>
+            This module adds a field for ID number on <code>res.partner</code> and <code>res.users</code> models.<br>
+            It overrides the authentication methods to allow login and password reset using the ID number.
+        </p>
 
-    <h2>⚙️ Technical Notes</h2>
-    <p>This module adds a field for ID number on <code>res.partner</code> and <code>res.users</code> models. It overrides the authentication methods to allow login and password reset using the ID number.</p>
+        <h2>📦 Installation</h2>
+        <ul>
+            <li>Copy the module to your Odoo addons directory</li>
+            <li>Update the app list</li>
+            <li>Install the module from the Apps menu</li>
+        </ul>
 
-    <h2>📦 Installation</h2>
-    <ul>
-        <li>Copy the module to your Odoo addons directory</li>
-        <li>Update the app list</li>
-        <li>Install the module from the Apps menu</li>
-    </ul>
-
-    <h2>🧑‍💻 Maintainer</h2>
-    <p>Developed by <strong>Attefeh Falah</strong> — for support or customization, contact <a href="mailto:you@example.com">attefehfalah@gmail.com</a>.</p>
-
+        <h2>🧑‍💻 Maintainer</h2>
+        <p>
+            Developed by <strong>Attefeh Falah</strong> — for support or customization, contact
+            <a href="mailto:attefehfalah@gmail.com">attefehfalah@gmail.com</a>.
+        </p>
+    </div>
 </body>
 </html>
