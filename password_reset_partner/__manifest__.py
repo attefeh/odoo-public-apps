@@ -1,0 +1,28 @@
+{
+    'name': 'Password Reset Partner',
+    'version': '18.0.0.0',
+    'summary': "Reset user's password from partner form",
+    'description': "This module allows administrators to reset a user's password directly from the partner form view. It works for all type of users including internal and portal users.",
+    'author': 'Attefeh Falah',
+    'maintainer': 'Attefeh Falah',
+    'support': 'attefehfalah@gmail.com',
+    'website': 'https://www.techstarssolution.com',
+    'category': 'Base',
+    'depends': ['base'],
+    'data': [
+        'security/ir.model.access.csv',
+        'wizard/partner_reset_password_views.xml',
+        'views/res_partner_views.xml',
+    ],
+    'images': [
+        'static/description/icon.png',
+        'static/description/screenshot1.png',
+        'static/description/conver.png',
+    ],
+    'price': 5,
+    'currency': 'USD',
+    'installable': True,
+    'application': False,
+    'auto_install': False,
+    'license': 'LGPL-3',
+}

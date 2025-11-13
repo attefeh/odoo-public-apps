@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="view_res_partner_form_inherit_reset_password" model="ir.ui.view">
+        <field name="name">res.partner.form.inherit.reset.password</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//sheet" position="before">
+                <header>
+                    <button name="reset_user_password" string="Reset Password" type="object" class="oe_highlight" invisible="is_company" groups="base.group_erp_manager"/>
+                </header>
+            </xpath>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="view_users_form_inherit_signup" model="ir.ui.view">
+        <field name="name">res.users.form.inherit.signup</field>
+        <field name="model">res.users</field>
+        <field name="inherit_id" ref="base.view_users_simple_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//label[@for='login']" position="replace">
+                <label for="login" string="ID Number"/>
+            </xpath>
+            <xpath expr="//field[@name='login']" position="attributes">
+                <attribute name="placeholder">Enter student ID Number</attribute>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="view_users_form_inherit2_signup" model="ir.ui.view">
+        <field name="name">res.users.form.inherit2.signup</field>
+        <field name="model">res.users</field>
+        <field name="inherit_id" ref="base.view_users_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//label[@for='login']" position="replace">
+                <label for="login" string="ID Number"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>
