@@ -22,7 +22,7 @@
         'static/description/screenshot3.png',
         'static/description/cover.png',
     ],
-    'price': 5,
+    'price': 0,
     'currency': 'USD',
     'installable': True,
     'application': False,
