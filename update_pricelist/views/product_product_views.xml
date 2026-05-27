@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+      <record id="product_product_tree_view" model="ir.ui.view">
+            <field name="name">product.product.list</field>
+            <field name="model">product.product</field>
+            <field name="inherit_id" ref="product.product_product_tree_view"/>
+            <field name="arch" type="xml">
+                <xpath expr="//list" position="inside">
+                    <header>
+                    <button string="Update Pricelist" type="object" name="action_update_pricelist_item" class="oe_highlight"/>
+                    </header>
+                </xpath>
+            </field>
+      </record>
+    <record id="product_template_tree_view" model="ir.ui.view">
+            <field name="name">product.template.list</field>
+            <field name="model">product.template</field>
+            <field name="inherit_id" ref="product.product_template_tree_view"/>
+            <field name="arch" type="xml">
+                <xpath expr="//list" position="inside">
+                    <header>
+                        <button string="Update Pricelist" type="object" name="action_update_pricelist_item" class="oe_highlight"/>
+                    </header>
+                </xpath>
+            </field>
+      </record>
+</odoo>

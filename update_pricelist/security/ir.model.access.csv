@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_update_pricelist_item_sale_manager,update.pricelist.item.sale.manager,model_update_pricelist_item,sales_team.group_sale_manager,1,1,1,1
+access_update_pricelist_item_product_manager,update.pricelist.item.product.manager,model_update_pricelist_item,product.group_product_manager,1,1,1,1
