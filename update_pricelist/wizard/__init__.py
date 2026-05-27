@@ -1,1 +1,0 @@
-from . import update_pricelist_items
