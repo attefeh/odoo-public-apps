@@ -39,7 +39,7 @@ class UpdatePricelistItem(models.TransientModel):
 
     def submit(self):
         if not self.product_ids:
-            raise UserError(_('There is a problem, try again or contact your administrator.'))
+            raise UserError(_('No product selected.'))
         for product in self.product_ids:
             latest_price = self.env['product.pricelist.item'].search([('product_id','=',product.id),
                                                                       ('pricelist_id','=',self.pricelist_id.id),'|',

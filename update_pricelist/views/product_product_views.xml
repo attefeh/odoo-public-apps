@@ -7,7 +7,7 @@
             <field name="arch" type="xml">
                 <xpath expr="//list" position="inside">
                     <header>
-                    <button string="Update Pricelist" type="object" name="action_update_pricelist_item"/>
+                    <button string="Update Pricelist" type="object" name="action_update_pricelist_item" class="oe_highlight"/>
                     </header>
                 </xpath>
             </field>
@@ -19,7 +19,7 @@
             <field name="arch" type="xml">
                 <xpath expr="//list" position="inside">
                     <header>
-                        <button string="Update Pricelist" type="object" name="action_update_pricelist_item"/>
+                        <button string="Update Pricelist" type="object" name="action_update_pricelist_item" class="oe_highlight"/>
                     </header>
                 </xpath>
             </field>
