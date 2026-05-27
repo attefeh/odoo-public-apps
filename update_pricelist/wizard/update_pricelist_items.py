@@ -22,17 +22,20 @@ class UpdatePricelistItem(models.TransientModel):
         for wizard in self:
             wizard.product_count = len(wizard.product_ids)
 
-    @api.depends('product_ids')
+    @api.depends('product_ids','pricelist_id')
     def _compute_products_without_price(self):
         for wizard in self:
-            missing = wizard.product_ids
-            if wizard.product_ids:
-                priced = self.env['product.pricelist.item'].search([
-                    ('product_id', 'in', wizard.product_ids.ids),
-                    '|', ('date_end', '=', False), ('date_end', '>', datetime.datetime.now()),
-                ]).product_id
-                missing = wizard.product_ids - priced
-            wizard.products_without_price = missing
+            products = wizard.product_ids._origin
+            if not wizard.pricelist_id or not products:
+                wizard.products_without_price = False
+                continue
+            priced = self.env['product.pricelist.item'].search([
+                ('product_id', 'in', products.ids),
+                ('fixed_price','>',0),
+                ('pricelist_id','=',wizard.pricelist_id.id),
+                '|', ('date_end', '=', False), ('date_end', '>', datetime.datetime.now()),
+            ]).product_id
+            wizard.products_without_price = products - priced
 
     def submit(self):
         if not self.product_ids:

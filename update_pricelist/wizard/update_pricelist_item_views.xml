@@ -6,7 +6,7 @@
         <field name="arch" type="xml">
             <form>
                 <sheet>
-                    <div class="alert alert-danger" role="alert" invisible="not products_without_price">
+                    <div class="alert alert-warning" role="alert" invisible="not products_without_price or type != 'percentage'">
                         <strong>Warning:</strong> The following products have no existing price on this pricelist. If you continue, their new price will be calculated from a base of 0. Remove them from the selection unless you intend to create them with a price of 0.
                         <field name="products_without_price" widget="many2many_tags" readonly="1" nolabel="1"/>
                     </div>
