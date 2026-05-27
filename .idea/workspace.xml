@@ -1,30 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b40a63e-17e4-458e-a1a5-de616fa4e19c" name="Changes" comment="update pricelist">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/odoo-public-apps.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_27_26,_7_29 PM_[Changes]/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_27_26,_7_29 PM_[Changes]/job-schedule.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_27_26,_7_29 PM_[Changes]/screenshot_form.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_27_26,_7_29 PM_[Changes]/screenshot_list.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_27_26,_7_29 PM_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_27_26__7_29PM__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/update_pricelist/i18n/update_pricelist.pot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/update_pricelist/static/description/cover.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/update_pricelist/static/description/icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/update_pricelist/static/description/screenshot_pricelist_items.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/update_pricelist/static/description/screenshot_wizard.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/password_reset_partner/models/res_partner.py" beforeDir="false" afterPath="$PROJECT_DIR$/password_reset_partner/models/res_partner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/password_reset_partner/wizard/partner_reset_password.py" beforeDir="false" afterPath="$PROJECT_DIR$/password_reset_partner/wizard/partner_reset_password.py" afterDir="false" />
+    <list default="true" id="5b40a63e-17e4-458e-a1a5-de616fa4e19c" name="Changes" comment="ready to use">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cron_handler/README.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cron_handler/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cron_handler/__manifest__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cron_handler/data/cron.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cron_handler/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cron_handler/models/cron_handler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cron_handler/security/cron_handler_security.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cron_handler/security/ir.model.access.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cron_handler/static/description/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cron_handler/static/description/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cron_handler/static/description/screenshot_form.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cron_handler/static/description/screenshot_list.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cron_handler/static/icons/job-schedule.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cron_handler/views/cron_handler_views.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/password_reset_partner/__manifest__.py" beforeDir="false" afterPath="$PROJECT_DIR$/password_reset_partner/__manifest__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/update_pricelist/__manifest__.py" beforeDir="false" afterPath="$PROJECT_DIR$/update_pricelist/__manifest__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/update_pricelist/models/product_pricelist_item.py" beforeDir="false" afterPath="$PROJECT_DIR$/update_pricelist/models/product_pricelist_item.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/update_pricelist/models/product_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/update_pricelist/models/product_product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/update_pricelist/security/ir.model.access.csv" beforeDir="false" afterPath="$PROJECT_DIR$/update_pricelist/security/ir.model.access.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/update_pricelist/wizard/update_pricelist_items.py" beforeDir="false" afterPath="$PROJECT_DIR$/update_pricelist/wizard/update_pricelist_items.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

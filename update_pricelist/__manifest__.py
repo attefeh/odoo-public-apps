@@ -54,7 +54,7 @@ Usage
         'views/product_product_views.xml',
     ],
     'images': [
-        'static/description/cover.svg',
+        'static/description/cover.png',
         'static/description/screenshot_wizard.png',
         'static/description/screenshot_pricelist_items.png',
     ],

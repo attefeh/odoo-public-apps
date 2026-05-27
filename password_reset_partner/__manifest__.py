@@ -16,7 +16,7 @@
         'views/res_partner_views.xml',
     ],
     'images': [
-        'static/description/cover.svg',
+        'static/description/cover.png',
         'static/description/Screenshot 01.png',
         'static/description/Screenshot 02.png',
     ],
