@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record model="ir.ui.view" id="product_pricelist_line_tree_view">
+        <field name="name">product.pricelist.line.list.view</field>
+        <field name="model">product.pricelist.item</field>
+        <field name="arch" type="xml">
+            <list editable="top" default_order="date_start desc">
+                <header>
+                    <button name="action_update_pricelist_item" string="Update Pricelist" type="object" class="oe_highlight" />
+                </header>
+                <field name="company_id" column_invisible="1"/>
+                <field name="pricelist_id"/>
+                <field name="product_tmpl_id"/>
+                <field name="supplier_id"/>
+                <field name="product_id"/>
+                <field name="purchase_price" widget="integer"/>
+                <field name="fixed_price" widget="integer"/>
+                <field name="profit_percentage" widget="integer"/>
+                <field name="date_start"/>
+                <field name="date_end"/>
+            </list>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="product_pricelist_line_view_search">
+        <field name="name">product.pricelist.search</field>
+        <field name="model">product.pricelist.item</field>
+        <field name="arch" type="xml">
+            <search string="Products Price Lines Search">
+                <field name="pricelist_id" string="Pricelist"/>
+                <field name="product_tmpl_id"/>
+                <field name="product_id"/>
+                <field name="date_start"/>
+                <field name="date_end"/>
+                <field name="supplier_id"/>
+                <group>
+                        <filter string="Price List" name="group_by_pricelist" domain="[]" context="{'group_by':'pricelist_id'}"/>
+                </group>
+                <filter string="Current Prices"  name="current_prices_filter"
+                        domain="[('date_start','&lt;',datetime.datetime.now()),'|',('date_end','=',False),('date_end','&gt;',datetime.datetime.now())]"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="product_pricelist_lines_action" model="ir.actions.act_window">
+        <field name="name">Pricelist Items</field>
+        <field name="res_model">product.pricelist.item</field>
+        <field name="view_mode">list</field>
+        <field name="context">{'search_default_group_by_pricelist':1,'search_default_current_prices_filter':1}</field>
+        <field name="view_id" ref="product_pricelist_line_tree_view"/>
+        <field name="search_view_id" ref="product_pricelist_line_view_search" />
+    </record>
+
+    <menuitem id="menu_product_pricelist_line_main"
+            name="Pricelist Lines"
+            action="product_pricelist_lines_action"
+            parent="sale.product_menu_catalog"
+            sequence="40"/>
+</odoo>
