@@ -2,68 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d63effe9-0f0a-45ca-b23c-8ee18f1a549f" name="Changes" comment="ready to use">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/odoo-public-apps.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cron_handler/README.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cron_handler/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cron_handler/__manifest__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cron_handler/data/cron.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cron_handler/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cron_handler/models/cron_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cron_handler/security/cron_handler_security.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cron_handler/security/ir.model.access.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cron_handler/static/description/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cron_handler/static/description/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cron_handler/static/description/screenshot_form.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cron_handler/static/description/screenshot_list.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cron_handler/static/icons/job-schedule.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cron_handler/views/cron_handler_views.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/password_reset_partner/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/password_reset_partner/__manifest__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/password_reset_partner/i18n/password_reset_partner.pot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/password_reset_partner/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/password_reset_partner/models/res_partner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/password_reset_partner/security/ir.model.access.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/password_reset_partner/security/password_reset_security.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/password_reset_partner/static/description/Screenshot 01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/password_reset_partner/static/description/Screenshot 02.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/password_reset_partner/static/description/cover.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/password_reset_partner/static/description/icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/password_reset_partner/views/res_partner_views.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/password_reset_partner/wizard/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/password_reset_partner/wizard/partner_reset_password.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/password_reset_partner/wizard/partner_reset_password_views.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/update_pricelist/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/update_pricelist/__manifest__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/update_pricelist/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/update_pricelist/models/product_pricelist_item.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/update_pricelist/models/product_product.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/update_pricelist/security/ir.model.access.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/update_pricelist/views/product_pricelist_views.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/update_pricelist/views/product_product_views.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/update_pricelist/wizard/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/update_pricelist/wizard/update_pricelist_item_views.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/update_pricelist/wizard/update_pricelist_items.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticate_with_id_number/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticate_with_id_number/__manifest__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticate_with_id_number/controller/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticate_with_id_number/controller/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticate_with_id_number/models/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticate_with_id_number/models/res_partner.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticate_with_id_number/models/res_users.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticate_with_id_number/static/description/cover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticate_with_id_number/static/description/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticate_with_id_number/static/description/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/password_reset_partner/static/description/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticate_with_id_number/static/description/screenshot1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticate_with_id_number/static/description/screenshot2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticate_with_id_number/static/description/screenshot3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticate_with_id_number/views/auth_signup_login_templates.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticate_with_id_number/views/res_partner_views.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticate_with_id_number/views/res_users_views.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticate_with_id_number/views/webclient_template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/update_pricelist/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/update_pricelist/__manifest__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/update_pricelist/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/update_pricelist/models/product_pricelist_item.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/update_pricelist/models/product_product.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/update_pricelist/security/ir.model.access.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/update_pricelist/views/product_pricelist_views.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/update_pricelist/views/product_product_views.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/update_pricelist/wizard/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/update_pricelist/wizard/update_pricelist_item_views.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/update_pricelist/wizard/update_pricelist_items.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,25 +72,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.odoo-bin.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;19.0&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/attefeh/PycharmProjects/odoo-public-apps&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.odoo-bin.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "18.0",
+    "last_opened_file_path": "/home/attefeh/PycharmProjects/odoo-public-apps/password_reset_partner/static/description"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/password_reset_partner/static/description" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/password_reset_partner/static/description" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/password_reset_partner/static/description" />
       <recent name="$PROJECT_DIR$/authenticate_with_id_number/static/description" />
     </key>
   </component>
