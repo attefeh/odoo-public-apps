@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d63effe9-0f0a-45ca-b23c-8ee18f1a549f" name="Changes" comment="ready to use">
-      <change afterPath="$PROJECT_DIR$/password_reset_partner/static/description/cover.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/update_pricelist/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/update_pricelist/__manifest__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/update_pricelist/models/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/update_pricelist/models/product_pricelist_item.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/update_pricelist/models/product_product.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/update_pricelist/security/ir.model.access.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/update_pricelist/views/product_pricelist_views.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/update_pricelist/views/product_product_views.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/update_pricelist/wizard/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/update_pricelist/wizard/update_pricelist_item_views.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/update_pricelist/wizard/update_pricelist_items.py" beforeDir="false" />
-    </list>
+    <list default="true" id="d63effe9-0f0a-45ca-b23c-8ee18f1a549f" name="Changes" comment="ready to use" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -161,7 +148,23 @@
       <option name="project" value="LOCAL" />
       <updated>1779892736128</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ready to use">
+      <option name="closed" value="true" />
+      <created>1779914371054</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1779914371054</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ready to use">
+      <option name="closed" value="true" />
+      <created>1779914377331</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1779914377331</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
