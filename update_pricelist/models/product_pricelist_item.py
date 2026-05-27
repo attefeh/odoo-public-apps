@@ -6,20 +6,22 @@ from odoo.exceptions import UserError
 class PricelistItem(models.Model):
     _inherit = "product.pricelist.item"
 
-    supplier_id = fields.Many2one('res.partner', string='Supplier')
+    supplier_id = fields.Many2one('res.partner',
+                                  string='Supplier',
+                                  compute='_compute_purchase_info',)
     purchase_price = fields.Float(
         string='Latest Purchase Price',
-        compute='compute_purchase_price',
-        store=True  # Stored for performance; recomputes only on dependency changes
+        compute='_compute_purchase_info',
+        store=True
     )
     profit_percentage = fields.Float(
         string='Percentage',
         compute='_compute_profit_percentage',
-        store=True  # This is lightweight, so store is fine
+        store=True
     )
 
     @api.depends('product_id')
-    def compute_purchase_price(self):
+    def _compute_purchase_info(self):
         # Optimized: Use limit=1 since we only need the latest (ordered by date desc)
         for rec in self:
             if not rec.product_id:
@@ -46,26 +48,6 @@ class PricelistItem(models.Model):
             else:
                 rec.profit_percentage = 0
 
-    @api.model_create_multi
-    def create(self, vals):
-        res = super(PricelistItem, self).create(vals)
-        for rec in res:
-            # Set start time for the new line if not provided
-            if not rec.date_start:
-                rec.date_start = datetime.datetime.now()
-            # Optimized: Search only for records without end date and add limit
-            previous_records = self.env['product.pricelist.item'].search(
-                [
-                    ('product_id', '=', rec.product_id.id),
-                    ('pricelist_id', '=', rec.pricelist_id.id),
-                    ('id', '!=', rec.id),
-                    ('date_end', '=', False),  # Only those without end date
-                ],
-                limit=10  # Assume max 10 previous records; adjust as needed
-            )
-            for pre in previous_records:
-                pre.date_end = rec.date_start - timedelta(seconds=1)
-        return res
 
     def action_update_pricelist_item(self):
         pricelist = False
@@ -81,7 +63,7 @@ class PricelistItem(models.Model):
             'res_model': 'update.pricelist.item',
             'view_mode': 'form',
             'context': {
-                'selected_products': products,
+                'default_product_ids': [(6, 0, products)],
                 'default_pricelist_id': pricelist.id,
             },
             'target': 'new'

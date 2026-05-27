@@ -41,7 +41,10 @@ class UpdatePricelistItem(models.TransientModel):
         if not self.product_ids:
             raise UserError(_('There is a problem, try again or contact your administrator.'))
         for product in self.product_ids:
-            latest_price = self.env['product.pricelist.item'].search([('product_id','=',product.id),'|',('date_end','=',False),('date_end','>',datetime.datetime.now())],order="date_start desc",limit=1)
+            latest_price = self.env['product.pricelist.item'].search([('product_id','=',product.id),
+                                                                      ('pricelist_id','=',self.pricelist_id.id),'|',
+                                                                      ('date_end','=',False),('date_end','>',datetime.datetime.now())],
+                                                                     order="date_start desc",limit=1)
             pre_price = latest_price.fixed_price if latest_price else 0
             if self.type == 'percentage':
                 price = math.ceil(pre_price + (pre_price*self.percentage_amount)/100)
