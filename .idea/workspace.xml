@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5b40a63e-17e4-458e-a1a5-de616fa4e19c" name="Changes" comment="update pricelist">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/odoo-public-apps.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_27_26,_7_29 PM_[Changes]/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_27_26,_7_29 PM_[Changes]/job-schedule.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_27_26,_7_29 PM_[Changes]/screenshot_form.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_27_26,_7_29 PM_[Changes]/screenshot_list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_27_26,_7_29 PM_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_27_26__7_29PM__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/update_pricelist/i18n/update_pricelist.pot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/update_pricelist/static/description/cover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/update_pricelist/static/description/icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/update_pricelist/static/description/screenshot_pricelist_items.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/update_pricelist/static/description/screenshot_wizard.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/password_reset_partner/models/res_partner.py" beforeDir="false" afterPath="$PROJECT_DIR$/password_reset_partner/models/res_partner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/password_reset_partner/wizard/partner_reset_password.py" beforeDir="false" afterPath="$PROJECT_DIR$/password_reset_partner/wizard/partner_reset_password.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update_pricelist/__manifest__.py" beforeDir="false" afterPath="$PROJECT_DIR$/update_pricelist/__manifest__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update_pricelist/models/product_pricelist_item.py" beforeDir="false" afterPath="$PROJECT_DIR$/update_pricelist/models/product_pricelist_item.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update_pricelist/models/product_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/update_pricelist/models/product_product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update_pricelist/security/ir.model.access.csv" beforeDir="false" afterPath="$PROJECT_DIR$/update_pricelist/security/ir.model.access.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update_pricelist/wizard/update_pricelist_items.py" beforeDir="false" afterPath="$PROJECT_DIR$/update_pricelist/wizard/update_pricelist_items.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotChats">
+    <option name="panelChat">
+      <chat>
+        <option name="activeSessionId" value="cb8c9472-35cc-420d-9644-2745e09250cd" />
+        <option name="sessions">
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="cb8c9472-35cc-420d-9644-2745e09250cd" />
+            <option name="modeId" value="Agent" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+        </option>
+        <option name="type" value="PANEL" />
+      </chat>
+    </option>
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/home/attefeh/PycharmProjects/odoo-public-apps" value="3EJTo3SqIPAJ0ZJlBYLylttNpSr" />
+    </persistenceIdMap>
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="18.0" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;attefeh&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/attefeh/odoo-public-apps.git&quot;,
+    &quot;accountId&quot;: &quot;85749e86-5940-4368-ad78-4076ec83e863&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3EJTo3SqIPAJ0ZJlBYLylttNpSr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.odoo-bin.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;19.0&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/attefeh/PycharmProjects/odoo-public-apps&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/password_reset_partner/static/description" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/update_pricelist/static/description" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="odoo-bin" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="odoo-public-apps" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 virtualenv at ~/PycharmProjects/venv19" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="false" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="/opt/odoo19/odoo-bin" />
+      <option name="PARAMETERS" value="-c /etc/odoo-apps.conf -d odoo -u update_pricelist" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-b63d5a1f7c97-b61e75351b1f-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.22158.340" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b40a63e-17e4-458e-a1a5-de616fa4e19c" name="Changes" comment="ready to use" />
+      <created>1779895843932</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779895843932</updated>
+    </task>
+    <task id="LOCAL-00001" summary="ready to use">
+      <option name="closed" value="true" />
+      <created>1779895993570</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1779895993570</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ready to use">
+      <option name="closed" value="true" />
+      <created>1779896060169</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1779896060169</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update pricelist">
+      <option name="closed" value="true" />
+      <created>1779897060469</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1779897060469</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update pricelist">
+      <option name="closed" value="true" />
+      <created>1779909710189</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1779909710189</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update pricelist">
+      <option name="closed" value="true" />
+      <created>1779910810323</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1779910810323</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ready to use" />
+    <MESSAGE value="update pricelist" />
+    <option name="LAST_COMMIT_MESSAGE" value="update pricelist" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
