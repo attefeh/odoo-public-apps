@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b40a63e-17e4-458e-a1a5-de616fa4e19c" name="Changes" comment="ready to use">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cron_handler/README.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cron_handler/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cron_handler/__manifest__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cron_handler/data/cron.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cron_handler/models/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cron_handler/models/cron_handler.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cron_handler/security/cron_handler_security.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cron_handler/security/ir.model.access.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cron_handler/static/description/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cron_handler/static/description/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cron_handler/static/description/screenshot_form.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cron_handler/static/description/screenshot_list.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cron_handler/static/icons/job-schedule.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cron_handler/views/cron_handler_views.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/password_reset_partner/__manifest__.py" beforeDir="false" afterPath="$PROJECT_DIR$/password_reset_partner/__manifest__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/update_pricelist/__manifest__.py" beforeDir="false" afterPath="$PROJECT_DIR$/update_pricelist/__manifest__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/password_reset_partner/static/description/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/password_reset_partner/static/description/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update_pricelist/static/description/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/update_pricelist/static/description/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
