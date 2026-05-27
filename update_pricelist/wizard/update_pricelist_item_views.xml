@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record model="ir.ui.view" id="update_pricelist_item_view">
+        <field name="name">update.pricelist.item.view</field>
+        <field name="model">update.pricelist.item</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <div class="alert alert-danger" role="alert" invisible="not products_without_price">
+                        <strong>Warning:</strong> The following products have no existing price on this pricelist. If you continue, their new price will be calculated from a base of 0. Remove them from the selection unless you intend to create them with a price of 0.
+                        <field name="products_without_price" widget="many2many_tags" readonly="1" nolabel="1"/>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="pricelist_id"/>
+                            <field name="currency_id"/>
+                            <field name="close_old_pricelists"/>
+                        </group>
+                        <group>
+                            <field name="type"/>
+                            <field name="percentage_amount" invisible="type == 'fixed'" required="type == 'percentage'"/>
+                            <field name="fixed_amount" invisible="type == 'percentage'" required="type == 'fixed'"/>
+                        </group>
+                    </group>
+                    <group string="Products" colspan="2">
+                        <field name="product_count"/>
+                        <field name="product_ids" widget="many2many_tags"/>
+                    </group>
+                </sheet>
+                <footer>
+                    <button name="submit" string="Submit" type="object" class="oe_highlight"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+</odoo>
