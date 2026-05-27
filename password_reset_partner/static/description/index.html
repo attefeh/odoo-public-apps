@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>ID Number Authentication</title>
+    <title>Partner Reset Password</title>
     <style>
         body {
             font-family: 'Segoe UI', 'Arial', sans-serif;
@@ -112,42 +112,43 @@
 </head>
 <body>
     <div class="container">
-        <h1>ID Number Authentication</h1>
+        <h1>🔐 Reset User's Password</h1>
         <p>
-            This module allows users to signup, login and reset their password with their unique ID number.
+            This module allows administrators to securely reset passwords for user accounts, including Portal users and Internal Users from their partner's form.
         </p>
 
         <h2>✨ Key Features</h2>
         <ul>
-            <li>Signup, login and reset password with ID number</li>
-            <li>ID number is saved on related partner</li>
-            <li>ID number is unique per user</li>
-            <li>By changing ID number on partner's form or user's form, the other one will be changed automatically</li>
+            <li>Reset passwords directly from the partner form</li>
+            <li>Audit log of password reset actions</li>
             <li>Compatible with both community version and enterprise version</li>
             <li>Compatible with multicompany database</li>
         </ul>
 
+        <h2>✅ Compatibility</h2>
+        <ul>
+            <li>Odoo versions: 18.0 and 19.0</li>
+            <li>Editions: Community and Enterprise</li>
+            <li>Hosting: Odoo.sh, On-Premise and Odoo Online (SaaS)</li>
+        </ul>
+
         <h2>📸 Screenshots</h2>
-        <p>Below is a preview of the changed views:</p>
+        <p>Below is a preview of the password reset button and wizard in the user form:</p>
         <div class="screenshots-section">
             <div class="img-card">
-                <img src="screenshot1.png" alt="ID number as login field on login page">
-                <div class="img-caption">ID number as login field on login page</div>
+                <img src="Screenshot%2001.png" alt="Password Reset button on the partner form">
+                <div class="img-caption">Reset Password button on the partner form</div>
             </div>
             <div class="img-card">
-                <img src="screenshot2.png" alt="ID number field on user form">
-                <div class="img-caption">ID number field on user form</div>
-            </div>
-            <div class="img-card">
-                <img src="screenshot3.png" alt="ID number field on partner form">
-                <div class="img-caption">ID number field on partner form</div>
+                <img src="Screenshot%2002.png" alt="Password reset wizard">
+                <div class="img-caption">Password reset wizard</div>
             </div>
         </div>
 
         <h2>⚙️ Technical Notes</h2>
         <p>
-            This module adds a field for ID number on <code>res.partner</code> and <code>res.users</code> models.<br>
-            It overrides the authentication methods to allow login and password reset using the ID number.
+            This module adds a button to the <code>res.partner</code> form view.<br>
+            When clicked, it opens a wizard to ask for new password. By confirming, it will update related user to that partner's password.
         </p>
 
         <h2>📦 Installation</h2>
@@ -159,7 +160,7 @@
 
         <h2>🧑‍💻 Maintainer</h2>
         <p>
-            Developed by <strong>Tech Stars SPC</strong> — for support or customization, contact
+            Developed by <strong>Attefeh Falah</strong> — For support or customization, contact
             <a href="mailto:attefehfalah@gmail.com">attefehfalah@gmail.com</a>.
         </p>
     </div>
